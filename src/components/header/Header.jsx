@@ -20,10 +20,8 @@ const Header = () => {
 
     useEffect(() => {
         if (isShow) {
-            // Отключаем скроллинг, когда LeftMenu отображается
             document.body.style.overflow = 'hidden';
         } else {
-            // Восстанавливаем скроллинг, когда LeftMenu скрыто
             document.body.style.overflow = 'auto';
         }
     })
