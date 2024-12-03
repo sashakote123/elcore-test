@@ -1,0 +1,35 @@
+.articlesPage {
+    padding: 0px 15px;
+    max-width: 1302px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+.pageTitle {
+    margin-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    text-align: center;
+    color: #262626;
+
+    @media (max-width: 800px) {
+        margin-bottom: 25px;
+    }
+}
+
+.articlesList {
+    max-width: 1272px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fill, minmax(408px, 1fr));
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 24px;
+    row-gap: 60px;
+
+    justify-items: center;
+
+    @media (max-width: 450px) {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Уменьшаем минимальную ширину */
+    }
+}

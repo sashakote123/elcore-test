@@ -1,0 +1,34 @@
+.categoriesBtns {
+    display: flex;
+    gap: 15px;
+
+    margin-bottom: 40px;
+    
+    @media (max-width: 800px) {
+        margin-bottom: 20px;
+    }
+}
+
+.btnsItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #428d26;
+    border: 1px solid #428d26;
+    border-radius: 20px;
+    padding: 4px 12px;
+
+    font-weight: 400;
+    font-size: 14px;
+
+    @media (max-width: 380px) {
+        font-size: 12px;
+        padding: 3px 10px;
+    }
+}
+
+.active {
+    background: #428d26;
+    color: #fff;
+}

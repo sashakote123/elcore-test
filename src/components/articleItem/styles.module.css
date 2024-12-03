@@ -1,0 +1,43 @@
+.articleItem {
+    max-width: 408px;
+    width: 100% !important;
+}
+
+.itemPrewiew {
+    max-width: 408px;
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.itemSubtitle {
+    margin-bottom: 10px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #6c6c6c;
+}
+
+.subtitleDate {
+}
+
+.subtitleCategory {
+}
+
+.itemTitle {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    color: #262626;
+}
+
+.itemDescription {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #262626;
+}

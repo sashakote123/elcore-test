@@ -1,0 +1,128 @@
+header {
+    margin-bottom: 70px;
+    @media (max-width: 800px) {
+        margin-bottom: 25px;
+    }
+}
+
+.wrapper {
+    padding: 28px 0;
+    background: #262626;
+    max-height: 77px;
+    @media screen and (max-width: 760px) {
+        padding: 14px 0;
+    }
+    @media screen and (max-width: 480px) {
+        min-height: 90px;
+        padding: 14px 10px;
+    }
+
+}
+.headerSocials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 0 15px;
+    max-width: 1302px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+    align-items: center;
+}
+
+.socialsFirstItem {
+    display: flex;
+    gap: 22px;
+
+    @media screen and (max-width: 760px) {
+        display: none;
+    }
+}
+
+.socialsSecondItem {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+
+}
+
+.itemLinks {
+    margin-right: 56px;
+    display: flex;
+    gap: 30px;
+    a {
+        color: white;
+    }
+}
+.itemBtns {
+    margin-right: 30px;
+    display: flex;
+    gap: 32px;
+
+    @media screen and (max-width: 600px) {
+        display: none;
+    }
+}
+.mainBtb {
+    border-radius: 3px;
+    padding: 6px 14px;
+    width: 138px;
+    height: 28px;
+    background: #428d26;
+
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+
+.navWrapper {
+    min-height: 103px;
+    background: #101010;
+}
+.navigation {
+    padding: 0 15px;
+    max-width: 1302px;
+    margin: 0 auto;
+    min-height: 103px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center !important;
+    a {
+        color: white;
+    }
+    ul {
+        display: flex;
+        flex: 1 1;
+        max-width: 770px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        color: white;
+        gap: 10px;
+        @media screen and (max-width: 760px) {
+            display: none;
+        }
+    }
+}
+
+.wrapperThin {
+    min-height: 41px;
+    background: #262626;
+}
+.links {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    max-width: 1302px;
+    margin: 0 auto;
+    min-height: 41px;
+
+    color: #d9d9d9;
+    a {
+        margin: 0 10px;
+        color: #d9d9d9;
+    }
+}
